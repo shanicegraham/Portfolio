@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Travels - Shanice Graham</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .expandable-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .expandable-header {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+            transition: all 0.3s ease;
+        }
+
+        .expandable-header:hover {
+            color: var(--primary-orange);
+        }
+
+        .expandable-icon {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-orange);
+            transition: transform 0.3s ease;
+        }
+
+        .expandable-icon.expanded {
+            transform: rotate(90deg);
+        }
+
+        .expandable-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            padding-left: 2rem;
+        }
+
+        .expandable-content.expanded {
+            max-height: 2000px;
+        }
+
+        .expandable-content p {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">Shanice Graham</a>
+        <div class="nav-links">
+            <a href="index.html#work" class="nav-link">Work</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<div class="mobile-menu">
+    <a href="index.html#work" class="mobile-link">Work</a>
+    <a href="index.html#about" class="mobile-link">About</a>
+    <a href="index.html#contact" class="mobile-link">Contact</a>
+</div>
+
+<section class="project-hero">
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Work</a>
+
+        <div class="hero-image-wrapper">
+            <img src="images/arctic/arctic.png" alt="Arctic Travels" class="project-hero-image">
+        </div>
+
+        <h1 class="project-hero-title">Arctic Travels</h1>
+        <div class="project-meta-section">
+            <h3 class="meta-heading">Role | Timeline | Tool</h3>
+            <img src="images/arctic/user-flow.png" alt="Project Role and Timeline" class="meta-image">
+        </div>
+    </div>
+</section>
+
+<section class="project-content">
+    <div class="container">
+
+        <div class="content-block">
+            <h2 class="content-heading">The Problem</h2>
+            <p class="content-text">
+                Arctic Travels is a premium travel agency specialising in tailor made skiing and snowboarding holidays. Despite offering high end experiences, their digital presence did not reflect the luxury, clarity, or ease of booking that their audience expects.
+            </p>
+            <p class="content-text">
+                The existing process lacked visual inspiration, intuitive navigation, and trust building information which made it difficult for users to confidently plan and book their trips.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">The Solution</h2>
+            <p class="content-text">
+                The goal was to deliver a polished, intuitive, and trustworthy booking experience that balances luxury aesthetic with practical usability, to allow users to feel confident as they plan their bespoke ski holiday.
+            </p>
+            <p class="content-text">
+                Specifically the client wanted inspiring photographs, a cool-toned palette and bold call-to-action buttons (CTAs). With inspiration drawn from sites like Booking.com and Expedia for the landing page and user experience.
+            </p>
+            <p class="content-text">
+                My design process followed the Double Diamond framework, grounding every decision in user research and iterative testing to deliver a premium, intuitive booking experience
+            </p>
+            <p class="content-text">
+                Through user interviews and competitor analysis, I identified common frustrations in mainstream travel sites which included cluttered layouts, hidden fees, and overwhelming upsells. I addressed these directly by simplifying the search interface, limiting options per screen to reduce cognitive load, and applying Hick's Law to present only essential choices at each stage.
+            </p>
+            <p class="content-text">
+                I introduced a side by side trip summary to increase pricing transparency, and contextual upgrades appeared only after users confirmed their core booking which enhanced trust and prevented decision fatigue.
+            </p>
+            <p class="content-text">
+                To maintain a consistent premium feel, I implemented a cool-toned colour palette, immersive photography, and bold CTAs that guided users clearly through their journey. The layout and typography were optimised for both desktop and mobile, with responsive adjustments ensuring balance and readability across devices.
+            </p>
+            <p class="content-text">
+                The final design transforms complex trip planning into a confident, effortless experience, combining luxury, clarity, and usability to make bespoke ski holidays feel both aspirational and achievable.
+            </p>
+        </div>
+        <div class="content-block">
+            <h3 class="content-subheading">Double Diamond Design Process</h3>
+            <img src="images/arctic/circles.png" alt="Double Diamond Design Process" class="process-image">
+        </div>
+        <div class="content-block">
+            <h2 class="content-heading">Discover &amp; Define</h2>
+            <h3 class="content-subheading">Moodboard</h3>
+            <p class="content-text">
+                Following the brief, user research and personas, I understood that my target audience was likely to be those aged 25-55 years old who enjoy adventurous luxury winter holidays that are well priced, visually appealing and easy to book. With this in mind I aimed to create a polished, modern interface that provides professional guidance for a seamless booking process.
+            </p>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/img-block1.png" alt="Moodboard and Design Research" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <div class="expandable-section">
+                <div class="expandable-header" onclick="toggleExpand(this)">
+                    <span class="expandable-icon">▸</span>
+                    <h4 class="content-minor-heading" style="margin: 0;">1. Colour Palette</h4>
+                </div>
+                <div class="expandable-content">
+                    <p class="content-text">
+                        The client requested cool-toned colours to reflect typical ski holiday branding. I used an analogous palette of blues and greens with neutral tones for balance and accessibility.
+                    </p>
+                    <p class="content-text">
+                        #7FAADA / #C9ECF9 – blue hues inspired by clear winter skies.
+                    </p>
+                    <p class="content-text">
+                        #767778 / #CCD3D9 – greys for contrast and structure.
+                    </p>
+                    <p class="content-text">
+                        #73A486 / #CBFEDE – greens drawn from natural alpine scenery, ideal for CTA buttons.
+                    </p>
+                    <p class="content-text">
+                        #9A8F86 / #F3EEE6 – warm browns reflecting ski lodges and adding depth.
+                    </p>
+                    <p class="content-text">
+                        Together, these colours create a calm, cool, and cohesive winter aesthetic.
+                    </p>
+                </div>
+            </div>
+
+            <div class="expandable-section">
+                <div class="expandable-header" onclick="toggleExpand(this)">
+                    <span class="expandable-icon">▸</span>
+                    <h4 class="content-minor-heading" style="margin: 0;">2. Typography</h4>
+                </div>
+                <div class="expandable-content">
+                    <p class="content-text">
+                        For the typefaces, I wanted to balance luxury with functionality. Script fonts felt elegant but were hard to read, so I ruled them out. I first explored serif options like Cinzel Decorative Bold for headlines and EB Garamond Regular for body text, which conveyed trust and sophistication. I then tested sans-serif options for better digital clarity, including Montserrat and Bruno Ace, paired with Open Sans for readability. Ultimately, the clean, modern pairing of Bruno Ace and Open Sans best reflected a refined yet user-friendly aesthetic suited to a luxury travel brand.
+                    </p>
+                </div>
+            </div>
+
+            <div class="expandable-section">
+                <div class="expandable-header" onclick="toggleExpand(this)">
+                    <span class="expandable-icon">▸</span>
+                    <h4 class="content-minor-heading" style="margin: 0;">3. Images</h4>
+                </div>
+                <div class="expandable-content">
+                    <p class="content-text">
+                        My image inspiration reflected the client's key themes and the emotions users should feel while browsing:
+                    </p>
+                    <p class="content-text">
+                        <strong>Mountains:</strong> Smooth, scenic views showcasing nature and the cool tones from the brief.
+                    </p>
+                    <p class="content-text">
+                        <strong>Ski Lifts:</strong> Vibrant images capturing the journey and panoramic scenery.
+                    </p>
+                    <p class="content-text">
+                        <strong>Skiing &amp; Snowboarding:</strong> Action shots adding energy and variety to the experience.
+                    </p>
+                    <p class="content-text">
+                        <strong>Lodges/Resorts:</strong> Luxurious chalets and hot tubs conveying comfort and warmth.
+                    </p>
+                    <p class="content-text">
+                        Together, these images help users visualise the experience and feel inspired to book their holiday.
+                    </p>
+                </div>
+            </div>
+
+            <div class="expandable-section">
+                <div class="expandable-header" onclick="toggleExpand(this)">
+                    <span class="expandable-icon">▸</span>
+                    <h4 class="content-minor-heading" style="margin: 0;">4. Website Inspiration</h4>
+                </div>
+                <div class="expandable-content">
+                    <p class="content-text">
+                        In line with the brief, the client wanted a landing page similar to Expedia or Booking.com, following Jakob's Law that users prefer familiar designs. My research showed these sites use a bold search bar to capture attention and product cards to showcase options using similarity and proximity. I applied these principles across the destination and booking pages, ensuring a consistent, intuitive experience for users planning their ski holiday.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Competitor Analysis</h3>
+            <p class="content-text">
+                I reviewed Booking.com and Expedia. I also reviewed two other websites, Inghams and Ski In Luxury, which I found to be very informative for my design. I completed identical tasks on each site to identify the pain points.
+            </p>
+            <p class="content-text">
+                I then developed a list of positives and negatives for each function whilst making note of particular features that could influence my design.
+            </p>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/img-block2.png" alt="Competitor Analysis" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Key Insights</h3>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/img-block3.png" alt="Key Insights" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">User Interviews</h3>
+            <p class="content-text">
+                Following my research above, I developed interview questions for three potential users so that I could better understand their needs and pain points. Below are a sample of the questions:
+            </p>
+            <p class="content-text">
+                Can you tell me a bit about your most recent winter holiday?
+            </p>
+            <p class="content-text">
+                How do you usually go about booking your holidays? What issues do you face?
+            </p>
+            <p class="content-text">
+                What types of amenities or activities do you prioritise when searching for winter destinations?
+            </p>
+            <p class="content-text">
+                What would an ideal booking experience look like for you?
+            </p>
+            <p class="content-text">
+                What would make you recommend a booking platform to friends or family?
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Key Insights</h3>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/keys.png" alt="Key Insights from User Interviews" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <p class="content-text" style="font-style: italic; margin-top: 2rem;">
+                " How might we design a modern, visually engaging travel platform that allows users to effortlessly plan, customise, and book luxury bespoke ski holidays while feeling confident, inspired, and supported throughout the process? "
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">User Personas</h3>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/personas.png" alt="User Personas" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Key Insights &gt; Design Decisions</h3>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/design-decisions.png" alt="Key Insights to Design Decisions" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Information Architecture &amp; User Flow</h3>
+            <p class="content-text">
+                Before developing any interfaces for Arctic Travels, I created a clear Information Architecture (IA) and User Flow to establish how users would navigate through the platform and complete key tasks such as searching for lodges, making a booking, or managing their account. This allowed me to anticipate user needs, map out critical interactions, and structure the site in a way that reduced friction and increased clarity.
+            </p>
+            <p class="content-text">
+                The IA ensures content is organised in a logical structure that mirrors how users think about planning a ski holiday starting with destinations, narrowing to resorts, then viewing lodges. This reduces cognitive load, so users don't have to guess where to go next.
+            </p>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/flow.png" alt="Information Architecture" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <p class="content-text">
+                The IA was structured around four main user goals:
+            </p>
+            <p class="content-text">
+                1. Discover ski holidays and extras (via regions, resorts, lodges, passes or special offers)
+            </p>
+            <p class="content-text">
+                2. Search and filter lodges
+            </p>
+            <p class="content-text">
+                3. Complete a booking flow
+            </p>
+            <p class="content-text">
+                4. Manage bookings and account details
+            </p>
+            <p class="content-text">
+                The hierarchy was designed to reflect mental models that users are already familiar with in travel platforms like Expedia or Booking.com.
+            </p>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/flow2.png" alt="User Flow Diagram" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <p class="content-text">
+                The user flow outlines a primary journey from the homepage to booking confirmation, with several supporting and alternative paths:
+            </p>
+            <p class="content-text">
+                <strong>Search flow:</strong> Users can filter results directly or browse via destination categories
+            </p>
+            <p class="content-text">
+                <strong>Booking flow:</strong> Step-by-step booking with review, payment, and confirmation
+            </p>
+            <p class="content-text">
+                <strong>Account management:</strong> Returning users can log in to access saved trips or manage bookings
+            </p>
+            <p class="content-text">
+                <strong>Support flow:</strong> Options to contact support or download the itinerary
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">Develop &amp; Deliver</h2>
+            <h3 class="content-subheading">Wireframes</h3>
+            <p class="content-text">
+                As users often browse of their mobiles, I made the CTAs tap-friendly and collapsible menus to allow for ease when scrolling and readability to ensure the interface was mobile responsive. As well as filters to optimise searches and create a streamlined process.
+            </p>
+            <p class="content-text">
+                Another key focus was to make the visual hierarchy clear as users want quick access to options that matter to them. To do this, I highlighted the regions, resorts, lodges and passes on the front page and created filters for searching, including within spotlight offers so that it would stand out.
+            </p>
+            <p class="content-text">
+                I created an intuitive navigation based on my information architecture and user flow to allow users to move seamlessly from browsing to booking and confirmation.
+            </p>
+            <p class="content-text">
+                Whilst I wanted to focus on the imagery, I needed to ensure that the interfaces did not feel cluttered as I found this was common in my user research. I avoided this on mobile by using stacking and carousels to filter through content. I avoided this on desktop by using hierarchy and white space appropriately.
+            </p>
+            <p class="content-text">
+                From my user research, I wanted to include upsells. To achieve this, I placed upsells on the confirmation page with the title "enhance your trip" to make it feel optional and contextual, rather than aggressive. It also added a sense of luxury as opposed to just displaying it as an add-on.
+            </p>
+        </div>
+
+        <div class="video-container">
+            <iframe
+                    src="https://www.youtube.com/embed/wcakJWbUAvk"
+                    class="video-iframe"
+                    title="Wireframes and UX Process"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <p class="video-caption">Wireframes and UX Process</p>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Design System</h3>
+            <p class="content-text">
+                To guarantee visual coherence and accelerate hand off between a design team, I compiled a design system that documents every foundational choice behind the Arctic Travels interface. I also chose typography that I had identified within my research.
+            </p>
+            <p class="content-text">
+                During the wireframe process, I Initially chose Cinzel Decorative as the typeface, however, I altered my designs on reflection as I did not feel as if it fit the brief.
+            </p>
+            <p class="content-text">
+                For the buttons I used green for conversion and blue for secondary functions.
+            </p>
+        </div>
+
+        <div class="image-block-full">
+            <img src="images/arctic/design-system.png" alt="Design System Components" class="full-width-image">
+            <p class="image-enlarge-hint">Click to enlarge</p>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">Final Designs</h2>
+            <p class="content-text">
+                The home page features enticing imagery to draw users in. It breaks down their search by "regions", "resorts", "lodges" or "passes" or to explore the spotlight offers and bestsellers.
+            </p>
+            <p class="content-text">
+                The brand is highlighted with their experts section, features and reviews. The stand out feature is the "book here" CTA which is the main focus of a users visit to the site which is to book a holiday.
+            </p>
+            <p class="content-text">
+                The destination page illustrates the range of stays based on the users chosen search terms. Each product card has a clear image and ability to see more by the CTA "view trip".
+            </p>
+            <p class="content-text">
+                The booking page features a full breakdown of the stay selected along with the ability to contact customer service or view similar stays, allowing the user to remain in control.
+            </p>
+            <p class="content-text">
+                The payment page is clear and includes the trip summary for ease.
+            </p>
+            <p class="content-text">
+                The confirmation page allows users to download an itinerary or add extras.
+            </p>
+        </div>
+
+        <div class="video-container">
+            <iframe
+                    src="https://www.youtube.com/embed/SjwqQqd0LW4"
+                    class="video-iframe"
+                    title="High Fidelity Desktop"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <p class="video-caption">Final Design Showcase</p>
+
+        <div class="content-block">
+            <h2 class="content-heading">Conclusion</h2>
+            <h3 class="content-subheading">Successes</h3>
+            <p class="content-text">
+                One of the successes of this project was throughly undertaking user research to enhance my designs. The user research revealed several friction points in mainstream travel sites such as cluttered search pages, hidden fees, and generic upsells. By mapping those findings directly to my designs such as reducing the amount of options on search pages, including a side by side trip summary for transparency and contextual upgrades upon confirmation of the booking, I closed the gap between what users complain about and how my UI behaves.
+            </p>
+
+            <h3 class="content-subheading">Challenges</h3>
+            <p class="content-text">
+                One of the challenges of this project was dealing with the amount of content and ensuring that it translated well across both desktop and mobile. To ensure that both interfaces were optimised, I altered the layout and text content accordingly.
+            </p>
+
+            <h3 class="content-subheading">What I Learned</h3>
+            <p class="content-text">
+                Overall, the double diamond structured approach helped ensure that every design decision was rooted in user insight and aligned with Arctic Travels' business objectives and to understand the target users in order to translate a premium brand vision into a cohesive, user‑centred interface.
+            </p>
+            <p class="content-text">
+                By applying principles such as Hick's Law, I focused on reducing cognitive overload throughout the booking journey. This meant presenting users with clear, limited choices at each step, especially during key moments like selecting regions, lodging, or passes. By simplifying decision-making, the experience became more intuitive and efficient. The final design balances freedom and simplicity, empowering users to plan confidently without feeling overwhelmed.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h3 class="content-subheading">Explore the Prototype</h3>
+            <p class="explore-prompt">Interactive prototype preview of Arctic Travels mobile website.</p>
+            <p class="explore-prompt">Click the arrows to navigate.</p>
+        </div>
+
+        <div class="prototype-container">
+            <iframe
+                    src="https://www.figma.com/proto/g8nutSjP5Q7tJRNgDXjKAD?content-scaling=fixed&kind=proto&node-id=347-7676&page-id=322:1519&scaling=scale-down&starting-point-node-id=347:7676&embed-host=share"
+                    class="prototype-iframe"
+                    allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="project-navigation">
+            <a href="index.html" class="nav-button back-button">← Back to Work</a>
+            <a href="flexable.html" class="nav-button contact-button">Next Project →</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Shanice Graham. All rights reserved.</p>
+    </div>
+</footer>
+
+<button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+    <span class="scroll-text">Arctic Travels</span>
+    <span class="scroll-arrow">↑</span>
+</button>
+
+
+<script src="js/lightbox.js"></script>
+<script src="js/script.js"></script>
+<script>
+    function toggleExpand(header) {
+        const icon = header.querySelector('.expandable-icon');
+        const content = header.nextElementSibling;
+
+        icon.classList.toggle('expanded');
+
+        content.classList.toggle('expanded');
+    }
+</script>
+</body>
+</html>
