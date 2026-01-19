@@ -220,14 +220,27 @@
 </div>
 
     <script>
-  (function () {
+  document.addEventListener("DOMContentLoaded", function () {
     const user = "shanicegraham.creates";
     const domain = "gmail.com";
+
     const link = document.getElementById("emailLink");
-    if (link) {
-      link.href = `mailto:${user}@${domain}?subject=Website%20enquiry`;
+    if (!link) {
+      console.warn("emailLink element not found");
+      return;
     }
-  })();
+
+    const mailto = `mailto:${user}@${domain}?subject=Website%20enquiry`;
+
+    // Set href (so hover/copy link shows the mailto)
+    link.setAttribute("href", mailto);
+
+    // Force navigation on click (helps if something intercepts the click)
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.location.href = mailto;
+    });
+  });
 </script>
     
 </body>
