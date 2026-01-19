@@ -193,7 +193,7 @@
 
 
             <div class="contact-links">
-                <a href="mailto:shanicelgraham@hotmail.co.uk" class="contact-link">shanicelgraham@hotmail.co.uk</a>
+                <a id="emailLink" href="#" class="contact-link">Email</a>
                 <a href="http://linkedin.com/in/shanicegraham" target="_blank" class="contact-link">LinkedIn</a>
             </div>
         </div>
@@ -219,5 +219,16 @@
     </div>
 </div>
 
+    <script>
+  (function () {
+    const user = "shanicegraham.creates";
+    const domain = "gmail.com";
+    const link = document.getElementById("emailLink");
+    if (link) {
+      link.href = `mailto:${user}@${domain}?subject=Website%20enquiry`;
+    }
+  })();
+</script>
+    
 </body>
 </html>
