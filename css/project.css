@@ -729,22 +729,20 @@
         padding: 0.5rem 1rem;
         font-size: 0.8rem;
     }
-}
-.video-container {
+.demo-video-container {
   width: 100%;
   max-width: 1200px;
   margin: 3rem auto;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 40px rgba(139, 90, 60, 0.15);
+  background: #000;
 }
 
-.video-container video {
+.demo-video {
   display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
-  max-height: none;
-  object-fit: contain;
   border-radius: 16px;
 }
