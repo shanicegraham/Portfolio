@@ -1264,3 +1264,17 @@ body {
     background: var(--primary-brown);
     transform: translateY(-2px);
 }
+.video-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+  background: transparent;
+}
