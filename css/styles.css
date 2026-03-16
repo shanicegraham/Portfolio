@@ -649,7 +649,9 @@ body {
 
 .about-image {
     width: 100%;
+    max-width: 480px;
     height: auto;
+    display: block;
     border-radius: 12px;
 }
 
