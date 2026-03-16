@@ -730,3 +730,19 @@
         font-size: 0.8rem;
     }
 }
+.video-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 40px 0;
+  overflow: visible;
+}
+
+.video-container video {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  border-radius: 16px;
+}
