@@ -591,13 +591,9 @@ body {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
     gap: 4rem;
-    align-items: start;
+    align-items: center;
     position: relative;
     z-index: 1;
-}
-
-.about-content {
-    text-align: left;
 }
 
 .about-subtitle {
