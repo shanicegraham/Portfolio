@@ -596,6 +596,10 @@ body {
     z-index: 1;
 }
 
+.about-content {
+    text-align: left;
+}
+
 .about-subtitle {
     font-family: var(--font-heading);
     font-size: 1.8rem;
