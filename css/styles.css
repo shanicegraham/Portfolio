@@ -1278,3 +1278,9 @@ body {
   object-fit: contain;
   background: transparent;
 }
+.about-text .section-title,
+.about-text h2 {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
