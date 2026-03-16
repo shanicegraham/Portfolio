@@ -732,17 +732,19 @@
 }
 .video-container {
   width: 100%;
-  max-width: 100%;
-  margin: 40px 0;
-  overflow: visible;
+  max-width: 1200px;
+  margin: 3rem auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(139, 90, 60, 0.15);
 }
 
 .video-container video {
   display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  max-height: none !important;
-  object-fit: contain !important;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
   border-radius: 16px;
 }
