@@ -591,13 +591,14 @@ body {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
     gap: 4rem;
-    align-items: center;
+    align-items: start;
     position: relative;
     z-index: 1;
 }
 
 .about-header {
     text-align: center;
+    diplay: block;
     margin-bottom: 4rem;
 }
 
@@ -617,6 +618,7 @@ body {
     color: var(--primary-orange);
     margin-bottom: 2rem;
     font-weight: 500;
+    text-align: left;
 }
 
 .about-text p {
@@ -624,6 +626,7 @@ body {
     color: var(--text-medium);
     font-size: 1.05rem;
     line-height: 1.8;
+    text-align: left;
 }
 
 .about-text p:first-of-type::first-letter {
