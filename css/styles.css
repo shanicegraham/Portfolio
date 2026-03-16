@@ -596,6 +596,21 @@ body {
     z-index: 1;
 }
 
+.about-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about-header .section-title {
+    text-align: center;
+    display: inline-block;
+}
+
+.about-subtitle {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
 .about-subtitle {
     font-family: var(--font-heading);
     font-size: 1.8rem;
