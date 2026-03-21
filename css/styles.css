@@ -1183,10 +1183,10 @@ body {
     object-fit: contain;
     object-position: center;
     display: block;
-    padding: 0;
-    transform: none;
+    padding: 15px;
+    box-sizing: border-box;
+    transform: scale(1.6);
 }
-
 
 
 .project-image {
