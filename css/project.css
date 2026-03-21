@@ -1535,3 +1535,14 @@
     border: none;
     border-radius: 12px;
 }
+.content-list {
+    color: var(--text-medium);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.content-list li {
+    margin-bottom: 0.75rem;
+}
